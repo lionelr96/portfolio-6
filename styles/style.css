@@ -1,0 +1,146 @@
+/* ------------------------------------------------------------------------- */
+/*                         AA CULTURE WEBSITE STYLES                         */
+/* ------------------------------------------------------------------------- */
+
+/* ---------------------------------- NAV ---------------------------------- */
+
+.zone {
+	cursor: pointer;
+	color: #fff;
+	font-size: 2em;
+	border-radius: 4px;
+	border: 1px solid black;
+	transition: all 0.3s linear;
+}
+
+.zone:hover {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+		inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+		inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+	-o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+		inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+		inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.black {
+	background-color: black;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.header-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	font-size: 0.7em;
+}
+
+@media only screen and (min-width: 800px) {
+	.header-nav {
+		font-size: 0.7em;
+		padding: 0;
+	}
+}
+
+li {
+	padding: 20px;
+}
+
+li:hover {
+	background-color: red;
+	background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #C655BE), color-stop(100%, #cf0404));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #C655BE 0%, #cf0404 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #C655BE 0%, #cf0404 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #C655BE 0%, #cf0404 100%);
+	/* IE10+ */
+	background: linear-gradient(top, #C655BE 0%, #cf0404 100%);
+}
+
+.current {
+	text-decoration: underline;
+}
+
+.push {
+	margin-left: auto;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ------------------------------ MAIN STYLES ------------------------------ */
+
+/* .main-img {
+	/* position: relative; */
+
+} */
+
+/* .test {
+	position: absolute;
+} */
+
+.mlk-img {
+	width: 100%;
+}
+
+.description {
+	text-align: center;
+	background-color: #cf0404;
+	background: -moz-linear-gradient(top, #cf0404 0%, #c655be 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf0404), color-stop(100%, #c655be));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #cf0404 0%, #c655be 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #cf0404 0%, #c655be 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #cf0404 0%, #c655be 100%);
+	/* IE10+ */
+	background: linear-gradient(top, #cf0404 0%, #c655be 100%);
+	font-size: 30px;
+	color: black;
+}
+
+.title {
+	font-size: 3rem;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+
+.subtitle {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.passage {
+	padding: 30px 30px;
+}
+
+h2 {
+	font-size: 2rem;
+	padding-bottom: 30px;
+}
+
+/* --------------------------------- FOOTER -------------------------------- */
+
+footer {
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	font-size: 0.3rem;
+}
